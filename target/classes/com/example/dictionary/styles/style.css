@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+  -fx-text-fill: #ffffff;
+  -fx-font-family: "Source Sans Pro";
+}
+
+#navbar {
+  -fx-background-color: #080b2c;
+  -fx-border-color: #2a2e4f;
+  -fx-border-style: hidden hidden solid hidden;
+  -fx-border-width: 1;
+}
+
+#searchbar {
+  -fx-background-color: transparent;
+  -fx-border-color: #464863;
+  -fx-border-style: hidden hidden hidden solid;
+  -fx-border-width: 1;
+}
+
+#searchbar:focused {
+  -fx-background-color: #080b2c;
+  -fx-font-size: 16;
+}
+
+#searchbar:hover {
+  -fx-background-color: #080b2c;
+}
+
+#listview {
+  -fx-background-color: transparent;
+  -fx-border-color: #ffffff;
+  -fx-border-style: solid hidden hidden hidden;
+  -fx-border-width: 1;
+}
+
+#listview:focused {
+  -fx-background-color: transparent;
+}
+
+#listview:hover {
+  -fx-background-color: transparent;
+}
+
+#resultview {
+  -fx-background-color: transparent;
+  -fx-border-color: #ffffff;
+  -fx-border-style: hidden hidden hidden solid;
+  -fx-border-width: 1;
+}
+
+#resultview:focused {
+  -fx-background-color: transparent;
+}
+
+#optionbar > Button {
+  -fx-background-color: transparent;
+}
